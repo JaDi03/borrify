@@ -11,9 +11,12 @@ function App() {
       <nav className="w-full py-4 px-8 bg-gradient-to-b from-[#243e76] to-[#658bdd] shadow-md">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Borrify Logo" className="w-12 h-12 mr-3" />
-            <h1 className="text-2xl font-bold text-[#1ee82f]">Borrify</h1>
-          </div>
+  <img 
+    src="/logo.png" 
+    alt="Borrify" 
+    className="w-16 h-16 md:w-20 md:h-20"
+  />
+</div>
 
           <div className="flex items-center gap-4">
             <select
